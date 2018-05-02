@@ -1,0 +1,39 @@
+header {
+  background-color: #5b7989;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+}
+header h1 {
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+a {
+  color: white;
+  font-size: 1em;
+}
+@media (min-width:900px){
+  #contenido {
+    width: 900px;
+    display: block;
+    margin: auto;
+  }
+
+  header {
+    width: 900px;
+    display: table;
+  }
+
+  header h1 {
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px #02010a;
+    font-size: 2em;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  nav {
+    font-size: 1.5em;
+    overflow: hidden;
+  }
